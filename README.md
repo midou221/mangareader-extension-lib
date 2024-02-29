@@ -2,10 +2,10 @@ The extensions library used in Tachiyomi.
 
 ```
 ext {
-    libVersion = '1.4'
+    libVersion = '1.0.0'
 }
 
 dependencies {
-    compileOnly "com.github.tachiyomiorg:extensions-lib:$libVersion"
+    compileOnly "org.hamak.mangareader:library:$libVersion"
 }
 ```
